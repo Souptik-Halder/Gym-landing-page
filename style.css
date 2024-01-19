@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('./pexels-leon-ardho-1552242.jpg');
+    color: white;
+    
+}
+.left{
+    
+    color: white;
+    display: inline-block;
+    width: 155px;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+.mid{
+    border: 2px solid white;
+    display: block;
+    width: 25%;
+    margin: 18px auto;
+    border-radius: 30px;
+}
+.right{
+    
+    color: white;
+    display: inline-block;
+    width: 150px;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: orange;
+}
+.left img{
+    width: 60px;
+    height: 70px;
+}
+#bf{
+    display: inline;
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    font-size: 20px;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 0px;
+    margin: 8px 6px;
+    border: 3px solid green;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Young Serif', serif;
+}
+.right button:hover, .btn button:active{
+    background-color: rgb(100, 58, 2);
+}
+.container{
+    border: 2px solid white;
+    padding: 75px;
+    margin: 106px 80px;
+    width: 30%;
+    border-radius: 15px;
+}
+.container:hover, .container:active{
+    background-color: black;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    border: 1px solid rgb(248, 120, 14);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+h1,.container{
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 215px;
+    padding: 5px;
+    font-family: 'Bree Serif', serif;
+}
